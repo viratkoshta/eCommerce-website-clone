@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e.com website clone</title>
+  <link rel="stylesheet" href="prt.css">
+</head>
+
+<body>
+  <header>
+    <div class="main-header">
+      <a class="logo" href="#">flipzone<span>.</span></a>
+
+      <div class="location">
+        Deliver to<br>
+        <b>📍pan india </b>
+      </div>
+
+      <div class="search-box">
+        <select aria-label="Category">
+          <option>All</option>
+          <option>Electronics</option>
+          <option>Fashion</option>
+          <option>Books</option>
+        </select>
+
+        <input id="searchInput" type="text" placeholder="Search anything you want">
+        <button id="searchButton" aria-label="Search">🔍</button>
+      </div>
+
+      <div class="header-link">
+        Hello, sign in<br>
+        <b>Account & Lists</b>
+      </div>
+
+      <div class="header-link">
+        Returns<br>
+        <b>& Orders</b>
+      </div>
+
+      <button class="cart-button" id="cartButton">
+        🛒 Cart <span id="cartCount">0</span>
+      </button>
+    </div>
+
+    <nav>
+      <a href="#categories">☰ All</a>
+      <a href="#deals">Today's Deals</a>
+      <a href="#deals">Customer Service</a>
+      <a href="#categories">Home & Kitchen</a>
+      <a href="#categories">Electronics</a>
+      <a href="#categories">Fashion</a>
+      <a href="#categories">Books</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="banner-text">
+        <p>THE WEEKEND EVENT</p>
+        <h1>Make room for<br><em>something wonderful.</em></h1>
+        <span>Fresh finds for every corner of your life, at prices you'll love.</span>
+        <a href="#deals">Shop the event →</a>
+      </div>
+
+      <div class="banner-picture">
+        <div class="circle"></div>
+        <div class="shape"></div>
+        <div class="chair">⌁</div>
+        <b>WEEKEND<br>LIVING</b>
+      </div>
+    </section>
+
+    <p class="shipping-message">
+      Shop from thousands of products, delivered quickly to your doorstep.
+      <a href="#">Learn more</a>
+    </p>
+
+    <section id="categories" class="content-section">
+      <h2>Explore popular categories</h2>
+
+      <div class="categories">
+        <a href="#deals">
+          <i class="pink">⌂</i>
+          <b>Home refresh</b>
+          <small>Up to 50% off</small>
+        </a>
+
+        <a href="#deals">
+          <i class="blue">◉</i>
+          <b>Electronics</b>
+          <small>Top-rated tech</small>
+        </a>
+
+        <a href="#deals">
+          <i class="yellow">♧</i>
+          <b>Fashion finds</b>
+          <small>From ₹499</small>
+        </a>
+
+        <a href="#deals">
+          <i class="green">✳</i>
+          <b>Daily essentials</b>
+          <small>Save every day</small>
+        </a>
+
+        <a href="#deals">
+          <i class="purple">▤</i>
+          <b>Books & more</b>
+          <small>Stories await</small>
+        </a>
+      </div>
+    </section>
+
+    <section id="deals" class="content-section deals-section">
+      <div class="title-row">
+        <div>
+          <p>HANDPICKED FOR YOU</p>
+          <h2>Today's standout deals</h2>
+        </div>
+        <a href="#">See all deals →</a>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="photo lilac">
+            <label>-42%</label>
+            🎧
+          </div>
+
+          <div class="details">
+            <small>SONIQ</small>
+            <h3>Noise-cancelling wireless headphones</h3>
+            <p class="rating">★★★★★ <span>(2,140)</span></p>
+            <strong>₹2,499 <del>₹4,299</del></strong>
+            <button class="add-button" data-name="Headphones">Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="photo peach">
+            <label>-35%</label>
+            ☕
+          </div>
+
+          <div class="details">
+            <small>BREW & CO.</small>
+            <h3>Stoneware coffee set, 4 pieces</h3>
+            <p class="rating">★★★★★ <span>(896)</span></p>
+            <strong>₹1,199 <del>₹1,849</del></strong>
+            <button class="add-button" data-name="Coffee set">Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="photo mint">
+            <label>-28%</label>
+            ⌚
+          </div>
+
+          <div class="details">
+            <small>MOVEWELL</small>
+            <h3>Active smartwatch with GPS</h3>
+            <p class="rating">★★★★★ <span>(4,807)</span></p>
+            <strong>₹3,999 <del>₹5,599</del></strong>
+            <button class="add-button" data-name="Smartwatch">Add to cart</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="photo sky">
+            <label>-45%</label>
+            🧴
+          </div>
+
+          <div class="details">
+            <small>BOTANICA</small>
+            <h3>Everyday skin ritual gift set</h3>
+            <p class="rating">★★★★★ <span>(1,022)</span></p>
+            <strong>₹899 <del>₹1,650</del></strong>
+            <button class="add-button" data-name="Skin ritual set">Add to cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#">Back to top</a>
+    <p><b>flipzone.</b> © 2026 flipzone— demo shopping site</p>
+  </footer>
+
+  <div id="message" class="message"></div>
+
+  <script src="prt.javascript"></script>
+</body>
+
+</html>
